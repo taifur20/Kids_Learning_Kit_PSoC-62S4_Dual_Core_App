@@ -1,12 +1,23 @@
 # PSoC&trade; 6 MCU & CAPSENSE&trade; Based Dual-Core Project
 
-This code example demonstrates how to create a Dual-core firmware design using ModusToolbox 3.0. This project utilize CAPSENSE&trade; design using on the CM0+ core of PSoC&trade; 6 MCU devices. The CM4 core is used to drive an LCD display and response on the messages receives from CM0+. This code example features a 5-segment CAPSENSE&trade; slider and two CAPSENSE&trade; buttons. Button 0 (**BTN0**) and button 1 (**BTN1**) used to control the functionality of CM4 apps. IPC Pipe is used to transfer the capsense response from CM0+ to CM4 core. For driving the graphics display emWin middleware library is used. SPI SD card is used for storing bitmap images that will be displayed in the graphics display. 
+This code is developed for my **Kids Learning Kit** project. The code example utilize Dual-core firmware design using ModusToolbox 3.0. This project utilize CAPSENSE&trade; design using on the CM0+ core of PSoC&trade; 6 MCU devices. The CM4 core is used to drive an LCD display and response on the messages receives from CM0+. This code example features a 5-segment CAPSENSE&trade; slider and two CAPSENSE&trade; buttons. Button 0 (**BTN0**) and button 1 (**BTN1**) used to control the functionality of CM4 apps. IPC Pipe is used to transfer the capsense response from CM0+ to CM4 core. For driving the graphics display emWin middleware library is used. SPI SD card is used for storing bitmap images that will be displayed in the graphics display. 
+
+The blog diagram for the system is given below.
+
+<img src = "https://community.element14.com/resized-image/__size/1586x622/__key/communityserver-blogs-components-weblogfiles/00-00-00-03-92/5684.Blank-diagram.jpeg">
 
 The code example includes the following two projects:
 
 **proj_cm0p:** The proj_cm0p project, runs CAPSENSE&trade; on CM0+. This is the first project to start on every reset, and runs completely on the CM0+ CPU. It then boots the CM4 CPU. The CM0+ reads the Capsense buttons and send the response to CM4.
 
 **proj_cm4:** This project is designed to run on the CM4 CPU. The project helps CM4 to drive graphics touch display and SD card. 
+
+The firmware flowchart is given below.
+<img src = "https://community.element14.com/resized-image/__size/1346x2020/__key/communityserver-blogs-components-weblogfiles/00-00-00-03-92/Blank-diagram1.jpeg">
+
+A project photo is attached here.
+
+<img src = "https://community.element14.com/resized-image/__size/1700x1096/__key/communityserver-blogs-components-weblogfiles/00-00-00-03-92/2248.aaple.jpg">
 
 [View this README on GitHub.]([https://github.com/taifur20/Kids_Learning_Kit_PSoC-62S4_Dual_Core_App])
 
@@ -320,4 +331,10 @@ For PSoC&trade; 6 MCU devices, see [How to design with PSoC&trade; 6 MCU - KBA22
 
 
 ## Document history
-
+Blog#7: Sending Capsense Data from CM0+ to CM4 using IPC Pipe
+Blog#6: Inter-core communication using IPC Pipe
+Blog#5: Using emWin & ModusToolbox for Displaying Bitmap Image
+Blog#4: Using emWin Middleware for Driving TFT Display
+Blog#3: Interfacing 2.8 inch LCD with PSoC 6 & ModusToolbox 3.0
+Blog#2: Getting Started with PSoC 62S4 Pioneer Kit & ModusToolbox 3.0
+Blog#1: Introduction
