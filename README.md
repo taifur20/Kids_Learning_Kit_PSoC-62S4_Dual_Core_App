@@ -330,11 +330,22 @@ Infineon provides a wealth of data at www.infineon.com to help you select the ri
 For PSoC&trade; 6 MCU devices, see [How to design with PSoC&trade; 6 MCU - KBA223067](https://community.infineon.com/docs/DOC-14644) in the Infineon Developer community.
 
 
-## Document history
-Blog#7: Sending Capsense Data from CM0+ to CM4 using IPC Pipe
-Blog#6: Inter-core communication using IPC Pipe
-Blog#5: Using emWin & ModusToolbox for Displaying Bitmap Image
-Blog#4: Using emWin Middleware for Driving TFT Display
-Blog#3: Interfacing 2.8 inch LCD with PSoC 6 & ModusToolbox 3.0
-Blog#2: Getting Started with PSoC 62S4 Pioneer Kit & ModusToolbox 3.0
-Blog#1: Introduction
+## Releted blogs in Element14
+      
+Blog #1: [Introduction](https://community.element14.com/challenges-projects/design-challenges/at-the-core-design-challenge/b/blog/posts/kids-alphabet-learning-toy---blog-1-introduction)
+
+Blog #2: [Getting Started with PSoC 62S4 Pioneer Kit & ModusToolbox 3.0](https://community.element14.com/challenges-projects/design-challenges/at-the-core-design-challenge/b/blog/posts/alphabet-learning-toy-for-kids---blog-2-getting-started-with-psoc-62s4-pioneer-kit-modustoolbox-3-0)
+
+Blog #3: [Interfacing 2.8 inch LCD with PSoC 6 & ModusToolbox 3.0](https://community.element14.com/challenges-projects/design-challenges/at-the-core-design-challenge/b/blog/posts/alphabet-learning-toy-for-kids---blog-2-interfacing-2-8-inch-lcd-with-psoc-6-modustoolbox-3-0)
+
+Blog #4: [Using emWin Middleware for Driving TFT Display](https://community.element14.com/challenges-projects/design-challenges/at-the-core-design-challenge/b/blog/posts/alphabet-learning-toy-for-kids---blog-4-using-emwin-middleware-for-driving-tft-display)
+
+Blog #5: [Using emWin & ModusToolbox for Displaying Bitmap Image](https://community.element14.com/challenges-projects/design-challenges/at-the-core-design-challenge/b/blog/posts/alphabet-learning-toy-for-kids---blog-5-using-emwin-modustoolbox-for-displaying-bitmap-image)
+
+Blog #6: [Inter-core communication using IPC Pipe](https://community.element14.com/challenges-projects/design-challenges/at-the-core-design-challenge/b/blog/posts/alphabet-learning-toy-for-kids---blog-6-inter-core-communication-using-ipc-pipes)
+
+Blog #7: [Sending Capsense Data from CM0+ to CM4 using IPC Pipe](https://community.element14.com/challenges-projects/design-challenges/at-the-core-design-challenge/b/blog/posts/alphabet-learning-toy-for-kids---blog-6-sending-capsense-data-from-cm0-to-cm4-using-ipc-pipe)
+
+Blog #8: [Controlling the CM4 driven Display with CM0+ sensed Capsense Button](https://community.element14.com/challenges-projects/design-challenges/at-the-core-design-challenge/b/blog/posts/alphabet-learning-toy-for-kids---blog-8-controlling-the-cm4-driven-display-with-cm0-sensed-capsense-button)
+      
+
